@@ -494,6 +494,17 @@ url("https://static.wixstatic.com/ufonts/1bd3a9_bb87ece38965400e9469e189f88ca3f7
 
 #comp-kvqtzpac { height:auto }#comp-kvqu67zb { height:auto }#comp-kvqu821i { --item-size:39px;--item-margin:0 10px 0 0;--item-display:inline-block;width:137px;height:39px }#c1dmp { width:auto;min-height:629px }#pageBackground_c1dmp { --bg-position:absolute;--bg-overlay-color:rgb(252, 252, 252);--fill-layer-background-overlay-color:transparent;--fill-layer-background-overlay-position:absolute }
 
+<script>
+    window.firstPageId = 'c1dmp'
+    window.bi.sendBeat(12, 'Partially visible', {pageId: window.firstPageId})
+    if (window.requestCloseWelcomeScreen) {
+        window.requestCloseWelcomeScreen()
+    }
+	if (!window.__browser_deprecation__) {
+		window.fedops.phaseStarted('partially_visible')
+	}
+</script>
+
 
 <!-- react-dom -->
 
