@@ -1,2 +1,2 @@
-# theShagnik.github.io
+# ShagnikMukherjea.github.io
 Personal Website
